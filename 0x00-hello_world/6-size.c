@@ -1,4 +1,8 @@
 #include<stdio.h>
+/**
+ *main - the start
+ *Return: It returns 0
+ */
 
 int main(void)/*main function*/
 {
