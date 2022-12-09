@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio> 
+#include <stdio.h> 
 /**
  * main - The main function
  * Return: It returns 0
