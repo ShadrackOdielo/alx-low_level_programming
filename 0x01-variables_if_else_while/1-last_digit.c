@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 /**
  * main - The main function
  * Return: It returns 0
@@ -15,7 +15,7 @@ int main(void)
 
 	printf("Last digit of %d is %d ", n, p);
 	if (p > 5)
-		printf("and is greater than  5\n");
+		printf("and is greater than 5\n");
 	else if (p == 0)
 		printf("and is 0\n");
 	else
