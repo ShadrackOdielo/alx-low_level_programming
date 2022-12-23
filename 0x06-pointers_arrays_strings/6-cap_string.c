@@ -10,8 +10,7 @@ char *cap_string(char *n)
 {
 	int i, j;
 	int cap = 32;
-	char sep[] = {',', ';', '.', '?', '"', '(', ')',
-		'{', '}', ' ', '\n', '\t'}
+	char sep[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'}
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
@@ -32,3 +31,4 @@ char *cap_string(char *n)
 		}
 		return (n);
 	}
+}
