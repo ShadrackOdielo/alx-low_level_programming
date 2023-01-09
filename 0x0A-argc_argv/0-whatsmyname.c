@@ -6,9 +6,9 @@
  * @argv: array of command-line arguments.
  * Return: always 0
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	argc = 0;
-
-	printf("%s\n", argv[argc]);
+	printf("%s\n", argv[0]);
 	return (0);
+}
+
